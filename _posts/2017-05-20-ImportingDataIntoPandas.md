@@ -3,6 +3,7 @@ layout: post
 title: How to Import CSV and XLS Data into Pandas
 description: A quick guide to importing data into Pandas.
 image: assets/images/Panda_Climbing_Tree_San_Diego_Zoo.jpeg
+permalink: import-data-into-pandas
 ---
 
 [Pandas](http://pandas.pydata.org/) is a Python Data Analysis Library. It allows you to play around with data and perform powerful data analysis.
