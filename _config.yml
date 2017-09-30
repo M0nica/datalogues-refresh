@@ -5,7 +5,7 @@ email: monica@aboutmonica.com
 description: An exploration of various areas of data visualization and programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-image: "http://www.datalogues.com/assets/images/home-bg.jpg"
+image: http://www.datalogues.com/assets/images/home-bg.jpg
 author: Monica Powell
 # street_address: 1234 Somewhere Road
 city: Brooklyn
