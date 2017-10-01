@@ -35,7 +35,22 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		<p>{{ content }}</p>
-   {% include share-page.html %}
+
+    {% include share-page.html %}
+
+    {% if author.bio %}
+    <hr>
+
+  <span>
+    <img src="{{author.image}}">
+    <h3>  {{author.name}} </h3>
+      <!-- Personal Info. -->
+      {{ author.bio }}
+  </span>
+  <br>
+{% endif %}
+
+
 	</div>
 </section>
 
