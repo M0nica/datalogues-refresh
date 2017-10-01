@@ -41,9 +41,9 @@
     {% if author.bio %}
     <hr>
 
-  <span>
-
-    <h3>{% if author.image %}<img src="{{author.image}}" class="author-img">{% endif %} {{author.name}} </h3>
+  <span><div>
+{% if author.image %}<img src="{{author.image}}" class="author-img">{% endif %}
+    <div><h3> {{author.name}} </h3></div></div>
       <!-- Personal Info. -->
       {{ author.bio }}
   </span>
