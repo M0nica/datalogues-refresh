@@ -4,6 +4,7 @@ title: How to Hide Your API Keys in Python
 description: You should always protect your application’s API Keys when your code is in a public repository. Here's how.
 image: assets/images/jquery-screenshot.jpg
 permalink: hide-api-keys
+author: monica_powell
 ---
 
 

@@ -4,6 +4,7 @@ title: How to Change Repo Language in GitHub
 description: The simple way to resolve GitHub misclassifying the language of your projects.
 image: assets/images/github-laptop.jpg
 permalink: change-repo-language
+author: monica_powell
 ---
 
 I recently started working on a [Weather app](https://github.com/M0nica/flask_weather) in Flask to auto-detect a user’s location based off of their IP address. After committing some updates to GitHub my app switched from being labeled as predominately Python to  98.9% CSS even though it was a Flask application in which most of the code I had written was in Python and HTML. Now and again, I do not agree with how GitHub classifies the languages in my repositories so I set out to figure out how to fix this issue.

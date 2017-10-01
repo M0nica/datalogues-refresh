@@ -21,6 +21,17 @@
 	<div class="inner">
 		<header class="major">
 			<h1>{{ page.title }}</h1>
+
+      <!-- Look the author details up from the site config. -->
+      {% assign author = site.data.authors[page.author] %}
+
+      <!-- Output author details if some exist. -->
+      {% if author %}
+    <span>
+        <!-- Personal Info. -->
+        Written by: <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
+    </span>
+{% endif %}
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		<p>{{ content }}</p>
