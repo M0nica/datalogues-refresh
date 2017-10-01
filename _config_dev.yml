@@ -31,6 +31,10 @@ pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/waterproofheart
 
+# comments
+
+var disqus_developer = 1;
+
 # build settings
 markdown: kramdown
 

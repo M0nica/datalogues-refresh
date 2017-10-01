@@ -5,6 +5,7 @@ description: You should always protect your application’s API Keys when your c
 image: assets/images/jquery-screenshot.jpg
 permalink: hide-api-keys
 author: monica_powell
+comments: true
 ---
 
 
