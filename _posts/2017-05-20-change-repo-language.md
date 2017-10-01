@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Change Repo Language in GitHub
-description: GitHub has a linguist library that auto-detects the language within every repository. Upon researching how to resolve GitHub misclassifying the language of your projects I found out the solution is as simple as telling GitHub which files to ignore.
+description: The simple way to resolve GitHub misclassifying the language of your projects.
 image: assets/images/github-laptop.jpg
 permalink: change-repo-language
 ---

@@ -19,6 +19,7 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
+twitter_username: waterproofheart
 500px_url:
 facebook_url:
 github_url: http://www.github.com/m0nica
