@@ -66,6 +66,7 @@ in the folder `_includes` create a file called `author_bio.html` to define the H
 
 
 ## display author name and link to author's twitter if one has been provided  
+  {% raw %}
   <div>
     	<h3> {{author.name}} &nbsp;
      		{% if author.twitter%}
@@ -81,6 +82,7 @@ in the folder `_includes` create a file called `author_bio.html` to define the H
   </span>
   <br>
 
+  {% endraw %}
 ```
 
 ### 5) Add author bios to the post layout
