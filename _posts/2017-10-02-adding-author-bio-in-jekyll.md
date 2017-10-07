@@ -55,35 +55,9 @@ comments: true
 
 in the folder `_includes` create a file called `author_bio.html` to define the HTML for how author bio's should be displayed
 
-```
 
-<hr>
+{% gist M0nica/11c8db6f267e94845f96c1afcf170769 %}
 
-  <span>
-
-  <div>
-{% if author.image %}<img src="{{author.image}}" class="author-img">{% endif %}
-
-
-## display author name and link to author's twitter if one has been provided  
-  {% raw %}
-  <div>
-    	<h3> {{author.name}} &nbsp;
-     		{% if author.twitter%}
-    	 <a href="{{author.twitter}}" class="icon fa-	twitter"><span class="label">Twitter</span></a>
-     		{% endif %}
-     </h3>
-   	</div>
-
-
-    </div>
-    ## Author Bio
-      {{ author.bio }}
-  </span>
-  <br>
-
-  {% endraw %}
-```
 
 ### 5) Add author bios to the post layout
 

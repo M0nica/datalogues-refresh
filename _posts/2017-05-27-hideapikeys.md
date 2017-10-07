@@ -52,20 +52,19 @@ strings with your API keys, depending on the service you may or may not need all
 four types of API keys. These in particular are required to create a Twitter
 application.
 
-    api_key = "YOUR_KEY"
-    api_secret = "YOUR_SECRET"
-    access_token = "YOUR_ACCESS_TOKEN"
-    token_secret = "YOUR_TOKEN_SECRET"
+{% gist M0nica/92e41255730429ecf2a207cf54d04704 %}
+
+  
 
 **main_script.py**
 
 This file will store your main script that needs to access the API keys. This
 file can be named whatever you like.
 
-    import config
-    from twython import Twython, TwythonError
-    # create a Twython object by passing the necessary secret passwords
-    twitter = Twython(config.api_key, config.api_secret, config.access_token, config.token_secret)
+
+
+
+{% gist M0nica/080bb680cb7e6d000432c85373d28c6a %}
 
 **.gitignore**
 
@@ -75,9 +74,7 @@ crucial to ensure that your config.py file does not end up viewable on GitHub!
 Here’s **[a collection of useful .gitignore
 templates](https://github.com/github/gitignore)**.**
 
-    config.py
-    __pycache__
-    .ipynb_checkpoints
+{% gist m0nica/c36536c19e0e94033f4fef99e1a399a6 %}
 
 
 
