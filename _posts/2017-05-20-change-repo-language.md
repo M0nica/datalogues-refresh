@@ -28,7 +28,8 @@ Upon examining the documentation for the linguist library I learned that adding 
 
 My .gitattribute:
 
-`static/* linguist-vendored`
+
+{% gist M0nica/54d27a270fa38897ee01dc00345c0794 %}
 
 
 This one-line file told GitHub to ignore all of my files in my static/ folder which is where CSS and other assets are stored for a Flask app. Vendor files can sometimes take up a lot of relative space so I am telling the linguist to just ignore them (since they were accounting for 98.9% of my project)!

@@ -39,3 +39,4 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-gist
