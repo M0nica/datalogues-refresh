@@ -68,3 +68,9 @@ img {
 .author-img {
   border-radius: 50%;
 }
+
+img[src$='#img-center'] {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+ }
