@@ -33,9 +33,11 @@ twitter_url: https://twitter.com/waterproofheart
 
 # build settings
 markdown: kramdown
+highlighter: rouge
 
 sass:
   style: compressed
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-gist
