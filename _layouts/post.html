@@ -14,25 +14,35 @@
 
 
 <!-- Main -->
-<div id="main" class="alt">
+<div id="main" class="alt article-text">
 
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<header class="major">
-			<h1>{{ page.title }}</h1>
 
-      <!-- Look the author details up from the site config. -->
-      {% assign author = site.data.authors[page.author] %}
+{{ page.date | date: '%B %d, %Y' }}
 
-      <!-- Output author details if some exist. -->
-      {% if author %}
-    <span>
-        <!-- Personal Info. -->
-        Written by: <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
-    </span>
-{% endif %}
+ &nbsp; &bull; &nbsp;
+
+{% include read_time.html %}
+<header class="major">
+<h1>{{ page.title }}</h1>
+
+
 		</header>
+
+    <!-- Look the author details up from the site config. -->
+    <!-- {% assign author = site.data.authors[page.author] %} -->
+
+    <!-- Output author details if some exist. -->
+    <!-- {% if author %}
+  <span> -->
+      <!-- Personal Info. -->
+      <!-- Written by: <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
+  </span>
+{% endif %} -->
+
+
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		<p>{{ content }}</p>
 
