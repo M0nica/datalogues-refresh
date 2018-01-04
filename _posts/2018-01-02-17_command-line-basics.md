@@ -7,9 +7,8 @@ permalink: command-line-basics
 author: monica_powell
 comments: true
 ---
-<center><em>Output on Mac OS terminal after typing: **telnet towel.blinkenlights.nl**</em></center> <br>
+<center><em>Output on Mac OS terminal after typing: <strong>telnet towel.blinkenlights.nl</strong> </em></center>
 
-<br>
 
 When I was first introduced to the command line I really had to adjust to
 navigating my computer in a black box with just text. So I avoided the command
@@ -162,4 +161,4 @@ I made my command line appear prettier by installing the theme Tomorrow Night. C
 [this site](https://mindthecode.com/customize-the-terminal/) for instructions on installing the theme Tomorrow Night.
 
 
-**A version of this article was originally published by Monica Powell on [FreeCodeCamp](https://medium.freecodecamp.org/conquering-the-command-line-f85f5e46c07c) on December, 5th, 2017 **
+**A version of this article was originally published by Monica Powell on [FreeCodeCamp](https://medium.freecodecamp.org/conquering-the-command-line-f85f5e46c07c) on December, 5th, 2017**
