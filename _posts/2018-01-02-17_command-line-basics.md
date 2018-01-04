@@ -101,25 +101,25 @@ will be created.
 
 #### commands to navigate/manipulate the filesystem
 
-**ls** **list** the contents of a directory
+**ls** - **list** the contents of a directory
 
-**pwdprint working directory** for the terminal to display the directory you are
+**pwd** - **print working directory** for the terminal to display the directory you are
 currently working on
 
-**touch **create or open a file without making any changes<br> very handy when
+**touch** - create or open a file without making any changes<br> very handy when
 wanting to create empty files without leaving the command line
 
-**sudo **this allows you to run commands as a **super user**
+**sudo** - this allows you to run commands as a **super user**
 
-**mv move **a file or directory****this can be used to move or rename a file by
+**mv** - **move a file or directory** this can be used to move or rename a file by
 updating the file path
 
-**cd** <br> **change the current directory** you are working on so that you can
+**cd** - **change the current directory** you are working on so that you can
 access files on a different part of the system<br> `cd` moves you to the root
 directory (top level folder on computer — usually the current User)<br> `cd .`
 current directory <br> `cd ..` navigates to directory two levels up
 
-**mkdir** <br> **make** a new **directory** (or a folder)
+**mkdir** - **make** a new **directory** (or a folder)
 
 #### **Commands to Install Software**
 
