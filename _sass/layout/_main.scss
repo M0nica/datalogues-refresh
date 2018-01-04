@@ -24,3 +24,49 @@
 			border-bottom: solid 1px _palette(border);
 		}
 	}
+
+/* styles to make the article posts black text on very light blue background instead of white on dark blue background"
+	*/
+
+	.article-text header.major>:first-child:after {
+    content: '';
+    background-color: #2b304a;
+		display: none;
+
+	 	}
+
+
+	.article-text {
+		h1, h2, h3, h4, h5 {
+			color: #2b304a;
+		}
+
+		code {
+    background: rgba(95, 95, 128, 0.09);
+		}
+
+		strong, b {
+    color: #2b304a;
+    font-weight: 600;
+		}
+	}
+
+
+
+
+	.article-text .major h1 {
+
+
+		 display: inline-block;
+		background-image: linear-gradient(90deg, #A166AB 44%, #5073B8 58%, #1098AD 72%);
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	}
+
+		.article-text section#one{
+		background-color: #f7f6f9;
+		color: black;
+	}
