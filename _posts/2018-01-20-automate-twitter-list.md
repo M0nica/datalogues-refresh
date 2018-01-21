@@ -183,4 +183,4 @@ This script can be set to automatically run locally or remotely via a cron job
 which allow tasks to be performed on a server on a set schedule.
 
 
-**A version of this article was originally published by Monica Powell on [FreeCodeCamp](www.aboutmonica.com/) on January, XY, 2018**
+**A version of this article was originally published by Monica Powell on [FreeCodeCamp](https://medium.freecodecamp.org/how-i-automatically-created-a-twitter-list-of-freecodecampers-in-5-minutes-425f0b922118) on January, 17th, 2018**
